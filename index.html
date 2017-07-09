@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Personal Website - Sean Ross</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,16 +38,13 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$("#menu-close").click();>Sean Ross</a>
             </li>
             <li>
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
@@ -61,10 +58,23 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <h1>Sean Ross</h1>
+            <h3 style="color:white">I'm a full-stack developer specializing in Rails and Angular.</h3>
+            <!-- <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
+            <ul class="list-inline">
+              <li>
+                  <a href="https://github.com/seanmross" target="_blank"><span class="small-icon"><i class="fa fa-github fa-fw fa-2x"></i></span></a>
+              </li>
+              <li>
+                  <a href="https://www.linkedin.com/in/seanmross/" target="_blank"><span class="small-icon"><i class="fa fa-linkedin fa-fw fa-2x"></i></span></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/seanmross92" target="_blank"><span class="small-icon"><i class="fa fa-facebook fa-fw fa-2x"></i></span></a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/seanross9" target="_blank"><span class="small-icon"><i class="fa fa-soundcloud fa-fw fa-2x"></i></span></a>
+              </li>
+            </ul>
         </div>
     </header>
 
@@ -73,8 +83,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                    <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                  <img class="img-responsive profile-img" src="img/headshot.jpg">
+                  <div class="about-headline">
+                    <span class="about-headline">I believe that knowledge is the most valuable possession.<b> My goal every day is to learn something new or to solve a problem, and I love using software to do that. I am a software engineer specializing in full-stack web development with experience using technologies such as Ruby on Rails, AngularJS, and JQuery. I focus on creating clean and scalable code to build apps that provide a smooth, enjoyable, and purposeful experience.</br></br>Prior to freelance software development, I attended Northeastern University in Boston, MA and worked as a mechanical design engineer. I love to play soccer, push my physical limits in crossfit, and travel the globe.<br/></br>Please check out my personal projects on GitHub and visit my LinkedIn page for a more comprehensive look at my background!</b></span>
+                    </h4>
+                  </div>
                 </div>
             </div>
             <!-- /.row -->
@@ -88,59 +101,53 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Skills</h2>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Development</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Ruby on Rails</p>
+                                <p>Angular</p>
+                                <p>HTML5, CSS3, &amp; JavaScript</p>
+                                <p>JQuery</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-code-fork fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Dev Tools</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Git</p>
+                                <p>Jekyll</p>
+                                <p>Node.js</p>
+                                <p>Bootstrap</p>
+                                <p>TDD</p>
+                                <p>RSpec</p>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <i class="fa fa-database fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Database Tools</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Service Name</strong>
-                                </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>MySQL</p>
+                                <p>PostgreSQL</p>
+                                <p>Firebase</p>
                             </div>
                         </div>
                     </div>
