@@ -16,6 +16,24 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+input[type=text] {
+    width: 25%;
+    box-sizing: border-box;
+    color: black;
+}
+
+input[type=email] {
+    width: 25%;
+    box-sizing: border-box;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
