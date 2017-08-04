@@ -214,6 +214,13 @@ span b {
   font-weight: 500;
 }
 
+p {
+  font-weight: 400;
+}
+
+li {
+  font-weight: 400;
+}
 /* Services */
 
 .services {
